@@ -41,16 +41,7 @@ compare_gemini.py — standalone script for A/B testing a different matcher mode
 sample_jd_*.pdf, sample_cv_*.pdf — synthetic test fixtures (see below)
 ```
 
-## Setup
 
-```bash
-git clone https://github.com/Farhad-ALi-Farhat/cv-screening
-cd cv-screening
-python -m venv venv
-source venv/bin/activate  # venv\Scripts\activate on Windows
-pip install -r requirements.txt
-cp .env.example .env      # then fill in your own API keys
-```
 
 Requires a [Groq](https://console.groq.com/keys) API key (used for JD parsing) and a [Google AI Studio](https://aistudio.google.com/apikey) key (used for CV matching).
 
