@@ -62,11 +62,6 @@ python main.py
 ```
 Edit the `initial_state` dict in `main.py` to point at your own JD and CV files.
 
-**Streamlit app:**
-```bash
-streamlit run app.py
-```
-Upload a JD (paste text or PDF/DOCX) and candidate CVs, set the shortlist threshold and review margin, and run.
 
 ## Configuration
 
